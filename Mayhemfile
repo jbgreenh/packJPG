@@ -1,0 +1,5 @@
+project: jbgreenh/packJPG
+target: packJPG
+
+cmds:
+  - cmd: /packJPG @@
