@@ -11,7 +11,7 @@ WORKDIR /packJPG
 
 ## TODO: ADD YOUR BUILD INSTRUCTIONS HERE.
 RUN cd source && make dev
-RUN cd ../docs && unzip sample_images.zip -d sample_images
+RUN cd docs && unzip sample_images.zip -d sample_images
 
 # Package Stage
 FROM --platform=linux/amd64 ubuntu:20.04
